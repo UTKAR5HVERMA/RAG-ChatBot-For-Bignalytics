@@ -14,7 +14,6 @@ API_TOKEN = os.getenv("API_TOKEN")
 
 import os
 import requests
-API_TOKEN = "18yvu2WK3ugBJvbiWEz0r823__ho_NvnEFPJ0DsX"
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/47055a3a6ea4207316ce59689541eae5/ai/run/"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
